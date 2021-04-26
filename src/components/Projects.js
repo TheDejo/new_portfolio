@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {ButtonSmall as Button} from '../components/myButton';
 import {FiLink} from 'react-icons/fi';
+import Zoom from 'react-reveal/Zoom';
 
 
 
@@ -137,26 +138,28 @@ transform: translate(-50%, -45%);
 
 const Projects = ({picturecard}) => {
   return (
-    <ProjectContainer>
+    <ProjectContainer id="projects">
       <Project>
         <Heading>
           <h2>Portfolio</h2>
           <Dash />
           <p>Selected Works:</p>
         </Heading>
-
+        
         <CardContainer>
           {picturecard.map((picture, index) => {
             return (
-              <Card key={index}>
-                <img src={picture.image} alt="projects"/>
-                <h4>{picture.title}</h4>
-                <ButtonContainer>
-                  <Button>
-                    <Goto />
-                  </Button>
-                </ButtonContainer>
-               </Card>
+              <Zoom top cascade key={index}>
+                <Card >
+                  <img src={picture.image} alt="projects"/>
+                  <h4>{picture.title}</h4>
+                  <ButtonContainer>
+                    <Button href={picture.link} target="_blank">
+                      <Goto />
+                    </Button>
+                  </ButtonContainer>
+                </Card>
+               </Zoom>
             )
           })}
         </CardContainer>

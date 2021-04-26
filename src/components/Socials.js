@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {css} from 'styled-components/macro';
 import {IoLogoInstagram} from 'react-icons/io5';
-import {FiTwitter, FiGithub, FiLinkedin, FiRotateCcw} from 'react-icons/fi';
+import {FiTwitter, FiGithub, FiLinkedin} from 'react-icons/fi';
 
 const Container = styled.ul`
   list-style: none;
@@ -10,6 +10,8 @@ const Container = styled.ul`
   bottom: 2rem;
   left: 1rem;
   z-index: 1;
+  cursor: pointer;
+
 
   @keyframes ro {
   0% {
@@ -59,20 +61,20 @@ const Linkedin = styled(FiLinkedin)`
 const Socials = () => {
   return (
     <Container>
-      <Icons>
+      <Icons >
         <Anchor href="https://twitter.com/TheDejo_" target="_blank"><Twitter /></Anchor>
       </Icons>
 
       <Icons>
-        <Anchor><Instagram /></Anchor>
+        <Anchor href="https://www.instagram.com/thedejo__/" target="_blank"><Instagram /></Anchor>
       </Icons>
 
       <Icons>
-        <Anchor><Github /></Anchor>
+        <Anchor href="https://github.com/TheDejo" target="_blank"><Github /></Anchor>
       </Icons>
 
       <Icons>
-        <Anchor><Linkedin /></Anchor>
+        <Anchor href="https://www.linkedin.com/in/divine-ogbe-7a52b9a9/" target="_blank"><Linkedin /></Anchor>
       </Icons>
 
     </Container>

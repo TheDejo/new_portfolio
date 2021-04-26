@@ -83,7 +83,7 @@ const Bio = styled.div`
 
 const About = () => {
   return (
-    <BioContainer>
+    <BioContainer id="about">
       <BioBox>
         <Heading>
           <h2>A bit about me</h2>

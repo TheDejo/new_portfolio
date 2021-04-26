@@ -90,7 +90,7 @@ const Dash = styled.div`
 
 const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <Container>
         <Heading>
           <h2>My Basic Toolls:</h2>

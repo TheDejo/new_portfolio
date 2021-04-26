@@ -19,7 +19,7 @@ const Nav = styled.nav`
   z-index: 500;
 
   .logo {
-    height: 50px;
+    height: 40px;
     cursor: pointer;
   }
  

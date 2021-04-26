@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Bounce from 'react-reveal/Bounce';
 
 const ContactContainer = styled.div`
   min-height: 40vh;
@@ -43,11 +44,13 @@ const Anchor = styled.a`
 
 const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <TextBox>
         <p>Do you have a project you want to talk about?<br/> The more Colossal the better. </p>
       <Anchor href="mailto:divineogbe@gmail.com">
+      <Bounce bottom cascade>
         <h2>Say HI!</h2>
+      </Bounce>
       </Anchor>
       </TextBox>
     </ContactContainer>

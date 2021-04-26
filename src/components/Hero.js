@@ -2,7 +2,9 @@ import React from 'react';
 import Dimoji from '../images/Dimoji.png';
 import {Button} from './myButton';
 import styled from 'styled-components';
-import {HiOutlineArrowDown} from 'react-icons/hi'
+import {HiOutlineArrowDown} from 'react-icons/hi';
+import Bounce from 'react-reveal/Bounce';
+
 
 const HeroContainer = styled.div`
   min-height: 100vh;
@@ -100,6 +102,7 @@ const Hero = () => {
   return (
     <HeroContainer>
     <TextBox>
+    <Bounce bottom cascade>
       <ImageContainer>
         <img alt="dimoji" src={Dimoji} />
       </ImageContainer>
@@ -109,11 +112,12 @@ const Hero = () => {
         <p>Front-End Developer</p>
         <h3>Explore Projects</h3>
         <ButtonContainer>
-          <Button>
+          <Button to="projects" smooth={true} duration={1000}>
             <Arrow />
           </Button>
         </ButtonContainer>
       </Text>
+    </Bounce>
     </TextBox>
     
     </HeroContainer>

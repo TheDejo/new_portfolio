@@ -20,7 +20,7 @@ const Li = styled(LinkS)`
     text-decoration: none;
     list-style: none;
     color: #fed330;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 400;
     cursor: pointer;
   }
@@ -63,15 +63,8 @@ const Content = ({open, toggle}) => {
   return (
 
     <Ul open={open} >
-        {/* <Li to="bio-box" smooth={true} duration={1000} style={{color:"inherit"}} onClick={toggle}>
-          About</Li>
-          <Li to="bio-box" smooth={true} duration={1000} style={{color:"inherit"}} onClick={toggle}>
-          Project</Li>
-          <Li to="wave" activeClass="active" smooth={true} duration={1000} style={{color:"inherit"}} onClick={toggle}>
-          Say Hi</Li> */}
-
           {menuData.map((item, index) => (
-            <Li to={item.link} key={index} onClick={toggle} >
+            <Li to={item.link} key={index}  smooth={true} duration={1000} onClick={toggle} >
               {item.title}
             </Li>
           ))}
