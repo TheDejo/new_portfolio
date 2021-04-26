@@ -13,7 +13,7 @@ const Nav = styled.div`
   height:65px;
   padding: 1rem 2rem;
   position: fixed;
-  background: #130f40;
+  background: #000;
   top: 0;
   display: flex;
   justify-content: space-between;
