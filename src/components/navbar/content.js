@@ -8,6 +8,7 @@ const Li = styled(LinkS)`
    padding: 12px 10px;
     font-size: 18px;
     font-weight: 400;
+    color: #fff;
     cursor: pointer;
 
     &:hover{
