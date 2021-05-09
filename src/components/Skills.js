@@ -93,7 +93,7 @@ const Skills = () => {
     <SkillsContainer id="skills">
       <Container>
         <Heading>
-          <h2>My Basic Toolls:</h2>
+          <h2>My Basic Tools:</h2>
         </Heading>
         <IconContainer>
           <Icons>
