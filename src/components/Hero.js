@@ -109,7 +109,7 @@ const Hero = () => {
 
       <Text>
         <h1>Hello! <br/> Divine Here</h1>
-        <p>Front-End Developer</p>
+        <p>Full-Stack Developer</p>
         <h3>Explore Projects</h3>
         <ButtonContainer>
           <Button to="projects" smooth={true} duration={1000}>

@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Socials from '../components/Socials';
-import {projectData} from '../data/ProjectData';
+import {slides} from '../data/ProjectData';
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Hero/>
       <About />
       <Socials />
-      <Projects picturecard={projectData} /> 
+      <Projects picturecard={slides} /> 
       <Skills />
       <Contact />
     </>

@@ -4,7 +4,7 @@ import img3 from '../images/project_image3.jpg';
 import img4 from '../images/project_image4.jpg';
 
 
-export const projectData = [
+export const slides = [
   {title: 'Hotel app', image: img1, link:'https://dejo.netlify.app/'},
   {title: 'Movie app', image: img2, link:'https://dejo-movie.netlify.app/'},
   {title: 'Publishing project', image: img3, link:'https://medal.netlify.app/'},

@@ -32,5 +32,7 @@ export const Toggle = ({theme, toggleTheme}) => {
         {theme === 'light' ? <Moon /> : <Sun />}
       </div>
     )
+    
 
 }
+

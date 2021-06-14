@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {FaReact, FaHtml5, FaCss3, FaJs, FaGithub} from 'react-icons/fa'
-import {SiRedux} from 'react-icons/si'
+import {FaReact, FaHtml5, FaCss3, FaJs, FaGithub, FaNode} from 'react-icons/fa'
 
 
 const SkillsContainer = styled.div`
@@ -73,7 +72,7 @@ const ReactIcon = styled(FaReact)`
 const GithubIcon = styled(FaGithub)`
    font-size: 50px;
 `
-const ReduxIcon = styled(SiRedux)`
+const NodeIcon = styled(FaNode)`
    font-size: 50px;
 `
 
@@ -122,8 +121,8 @@ const Skills = () => {
             <Dash />
           </Icons>
           <Icons>
-            <ReduxIcon />
-            <h3>Redux</h3>
+            <NodeIcon />
+            <h3>Node</h3>
             <Dash />
           </Icons>
         </IconContainer>

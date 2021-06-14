@@ -93,9 +93,9 @@ const About = () => {
           <p>
           Errr... it is always very hard to describe one’s self even though i’ve known me all my life. Here goes something hopefully.<br/>
           <br/>
-          Divine Ogbe is a graduate of Electrical and Electronics Engineering(M.Eng). I am a software engineer mainly into frontend web technologies. What drives my work ethic is building products that are user-centered, expecting to see a real impact from the works that I take on. I enjoy approaching code from a different point of view considering a great user interface as well as seamless functionality.<br/>
+          Divine Ogbe is a graduate of Electrical and Electronics Engineering(M.Eng). I am a full-stack software engineer. What drives my work ethic is building products that are user-centered, expecting to see a real impact from the works that I take on. I enjoy approaching code from a different point of view considering a great user interface as well as seamless functionality.<br/>
           <br/>
-          Beside programing I’m interested in movies, sports, reading, and fishing(never really tried but I think I would be great).<br/>
+          Beside programing I’m interested in movies, football, and reading.<br/>
           <br/>
           I am also very interested in discussions on AI in XR and how much it would change our perception in the future. <br/>
           <br/>
