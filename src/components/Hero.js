@@ -9,12 +9,17 @@ import Bounce from 'react-reveal/Bounce';
 const HeroContainer = styled.div`
   min-height: 100vh;
   position: relative;
+  top: 65px;
   width: 100%;
-  
+  display: grid;
+  align-items: center;
+  margin-bottom: 10%;
 
+  
+/* 
   @media(max-width: 940px) {
     margin-bottom: 10%;
-  }
+  } */
 `;
 const TextBox = styled.div`
   position: absolute;

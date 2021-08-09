@@ -5,12 +5,14 @@ import Bounce from 'react-reveal/Bounce';
 const ContactContainer = styled.div`
   min-height: 40vh;
   padding-top: 40px;
+  align-items: center;
+  display: grid;
 
-  @media (max-width: 700){
-    padding-top: 20%;
+   @media (max-width: 700){
+    min-height: 50vh;
   }
 
-  @media(max-width: 380px) {
+  /*@media(max-width: 380px) {
     margin-top: 40%;
   }
   @media(max-width: 361px) {
@@ -19,7 +21,7 @@ const ContactContainer = styled.div`
 
   @media(max-width: 321px) {
     margin-top: 100%;
-  }
+  } */
 `;
 const TextBox = styled.div`
   display: block;

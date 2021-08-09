@@ -7,10 +7,13 @@ const SkillsContainer = styled.div`
   min-height: 50vh;
   width: 100%;
   position: relative;
-  margin-top: 4%;
+  display: grid;
+  align-items: center;
+  /* margin-top: 4%; */
 
-  @media(max-width: 700px) {
-    margin-top: 40%
+
+  @media(max-width: 400px) {
+    min-height: 70vh;
   }
 `;
 

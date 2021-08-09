@@ -11,13 +11,15 @@ const Nav = styled.div`
   max-width: 100%;
   width: 100%;
   height:65px;
+  margin-top: -65px;
+  display:flex;
   padding: 1rem 2rem;
   position: fixed;
-  background: #000;
+  /* background: #000; */
   top: 0;
   display: flex;
   justify-content: space-between;
-  z-index: 200;
+  z-index: 500;
 
   .logo {
     height: 40px;

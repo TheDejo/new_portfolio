@@ -2,20 +2,22 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BioContainer = styled.div`
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
   position: relative;
-  margin-top: 10%;
+  display:grid;
+  /* margin-top: 10%; */
 
+  display: grid;
   @media(max-width: 380px) {
-    margin-top: 30%;
+    min-height: 120vh;
   }
-  @media(max-width: 361px) {
+   /*@media(max-width: 361px) {
     margin-top: 40%;
   }
   @media(max-width: 321px) {
     margin-top: 60%;
-  }
+  } */
 `;
 
 const BioBox = styled.div`
