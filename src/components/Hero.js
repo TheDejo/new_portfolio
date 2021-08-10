@@ -8,7 +8,7 @@ import Bounce from "react-reveal/Bounce";
 const HeroContainer = styled.div`
   min-height: 100vh;
   position: relative;
-  top: -65px;
+  top: 65px;
   width: 100%;
   display: grid;
   align-items: center;

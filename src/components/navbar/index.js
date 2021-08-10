@@ -8,7 +8,6 @@ import Burger from "./burger";
 const Nav = styled.div`
   max-width: 100%;
   width: 100%;
-  height: 65px;
   display: flex;
   padding: 1rem 2rem;
   position: fixed;
