@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BioContainer = styled.div`
-  min-height: 90vh;
+  min-height: 50vh;
   width: 100%;
-  position: relative;
-  display:grid;
-  /* margin-top: 10%; */
+  /* position: relative; */
+  /* display:grid; */
+  padding: 0 10%;
 
-  display: grid;
+  /* display: grid; */
   @media(max-width: 380px) {
-    min-height: 120vh;
+    /* min-height: 120vh; */
   }
    /*@media(max-width: 361px) {
     margin-top: 40%;
@@ -21,22 +21,22 @@ const BioContainer = styled.div`
 `;
 
 const BioBox = styled.div`
-  position: absolute;
-  width: 90%;
+  /* position: absolute; */
+  /* width: 90%;
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
   align-items: center;
   justify-content: center;
   display: flex;
   overflow: hidden;
 
   @media(max-width: 1120px) {
-    display: block;
-    text-align: center;
-    top: 15%;
-    margin-top: 10%;
-    transform: translate(-50%, -20%);
+    /* display: block; */
+    /* text-align: center; */
+    /* top: 15%;
+    margin-top: 10%; */
+    /* transform: translate(-50%, -20%); */
   }
 `;
 const Heading = styled.div`
@@ -65,7 +65,7 @@ const Dash = styled.div`
   margin-bottom: 20px;
 
   @media(max-width: 1120px) {
-    margin-left: 50%;
+    /* margin-left: 50%; */
   }
 `;
 const Bio = styled.div`
@@ -76,36 +76,23 @@ const Bio = styled.div`
     font-size: 20px;
   }
 
-  @media(max-width: 1120px) {
-    p{ 
-      text-align: center;
-    }
-  }
+
 `;
 
 const About = () => {
   return (
     <BioContainer id="about">
       <BioBox>
-        <Heading>
+        {/* <Heading>
           <h2>A bit about me</h2>
           <Dash />
-        </Heading>
+        </Heading> */}
         <Bio>
           <p>
-          Errr... it is always very hard to describe one’s self even though i’ve known me all my life. Here goes something hopefully.<br/>
-          <br/>
-          Divine Ogbe is a graduate of Electrical and Electronics Engineering(M.Eng). I am a full-stack software engineer. What drives my work ethic is building products that are user-centered, expecting to see a real impact from the works that I take on. I enjoy approaching code from a different point of view considering a great user interface as well as seamless functionality.<br/>
-          <br/>
-          Beside programing I’m interested in movies, football, and reading.<br/>
-          <br/>
-          I am also very interested in discussions on AI in XR and how much it would change our perception in the future. <br/>
-          <br/>
-              
-          Welcome to my life. :D
+            My name is Divine, Been a software engineer for about 6 years.
+            Over the course of my career, I have garnered substantial expertise in Javascript, Typescript, React, NodeJS. Currently, I hold the position of Senior Frontend Engineer at Motorway, where I have had the privilege to lead variety of challenging projects. What truly drives my work ethic is the desire to witness a tangible impact from the projects I undertake. I am committed to delivering high-quality, user-friendly products that not only provide value to the company but also create exceptional experiences for its customers.
           </p>
         </Bio>
-      
       </BioBox>
     </BioContainer>
   );

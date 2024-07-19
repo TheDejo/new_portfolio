@@ -16,10 +16,10 @@ function App() {
     <>
     <ThemeProvider theme={themeMode}>
     <GlobalStyle />
-    <Navbar />
+    {/* <Navbar /> */}
     <Toggle theme={theme} toggleTheme={toggleTheme}/>
     <Home />
-    <Footer />
+    {/* <Footer /> */}
     </ThemeProvider>
     </>
   );

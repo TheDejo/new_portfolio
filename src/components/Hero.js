@@ -7,31 +7,16 @@ import Bounce from "react-reveal/Bounce";
 
 const HeroContainer = styled.div`
   min-height: 100vh;
-  position: relative;
-  top: 65px;
-  width: 100%;
-  display: grid;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 10%;
 `;
 const TextBox = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
   text-align: justify;
   align-items: center;
   justify-content: center;
   display: flex;
-  z-index: 0;
-
-  @media (max-width: 940px) {
-    display: block;
-    text-align: center;
-    top: 30%;
-    transform: translate(-50%, -20%);
-  }
 `;
 
 const ImageContainer = styled.div`
@@ -52,15 +37,15 @@ const ImageContainer = styled.div`
 
 const Text = styled.div`
   h1 {
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 90px;
+    font-weight: 700;
     letter-spacing: 3px;
   }
 
   p {
     font-size: 20px;
     font-weight: 600;
-    color: #2bcbba;
+    color: #fed330;
   }
 
   h3 {
@@ -69,7 +54,7 @@ const Text = styled.div`
     font-weight: 400;
   }
 
-  @media (max-width: 940px) {
+  @media (max-width: 680px) {
     h1 {
       font-size: 40px;
       letter-spacing: 2px;
@@ -100,21 +85,20 @@ const Hero = () => {
     <HeroContainer>
       <TextBox>
         <Bounce bottom cascade>
-          <ImageContainer>
+          {/* <ImageContainer>
             <img alt="dimoji" src={Dimoji} />
-          </ImageContainer>
+          </ImageContainer> */}
 
           <Text>
             <h1>
-              Hello! <br /> Divine Here
+              Divine Ogbe
             </h1>
-            <p>Full-Stack Developer</p>
-            <h3>Explore Projects</h3>
-            <ButtonContainer>
+            <p>Software Engineer</p>
+            {/* <ButtonContainer>
               <Button to="projects" smooth={true} duration={1000}>
                 <Arrow />
               </Button>
-            </ButtonContainer>
+            </ButtonContainer> */}
           </Text>
         </Bounce>
       </TextBox>

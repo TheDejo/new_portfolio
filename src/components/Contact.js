@@ -3,14 +3,15 @@ import styled from 'styled-components';
 import Bounce from 'react-reveal/Bounce';
 
 const ContactContainer = styled.div`
-  min-height: 40vh;
-  padding-top: 40px;
+  min-height: 50vh;
+  /* padding-top: 40px; */
   align-items: center;
-  display: grid;
+  justify-content: center;
+  display: flex;
 
-   @media (max-width: 700){
+   /* @media (max-width: 700){
     min-height: 50vh;
-  }
+  } */
 
   /*@media(max-width: 380px) {
     margin-top: 40%;
@@ -24,18 +25,18 @@ const ContactContainer = styled.div`
   } */
 `;
 const TextBox = styled.div`
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 20px;
+  /* margin: 20px; */
   p{
     font-size: 20px;
   }
 
   h2{
     color: #fed330;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     cursor: pointer;
   }
 `;
@@ -48,7 +49,7 @@ const Contact = () => {
   return (
     <ContactContainer id="contact">
       <TextBox>
-        <p>Do you have a project you want to talk about?<br/> The more Colossal the better. </p>
+        {/* <p>Do you have a project you want to talk about?<br/> The more Colossal the better. </p> */}
       <Anchor href="mailto:divineogbe@gmail.com">
       <Bounce bottom cascade>
         <h2>Say HI!</h2>
