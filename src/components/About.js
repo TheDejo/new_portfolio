@@ -89,7 +89,6 @@ const About = () => {
         </Heading> */}
         <Bio>
           <p>
-            My name is Divine, Been a software engineer for about 6 years.
             Over the course of my career, I have garnered substantial expertise in Javascript, Typescript, React, NodeJS. Currently, I hold the position of Senior Frontend Engineer at Motorway, where I have had the privilege to lead variety of challenging projects. What truly drives my work ethic is the desire to witness a tangible impact from the projects I undertake. I am committed to delivering high-quality, user-friendly products that not only provide value to the company but also create exceptional experiences for its customers.
           </p>
         </Bio>
